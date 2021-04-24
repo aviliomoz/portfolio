@@ -1,0 +1,75 @@
+.blog-layout {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.blog-layout-header {
+  width: 100%;
+  height: 7vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 8vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-layout-header a {
+  color: var(--gray-1);
+  font-family: 'Blocked';
+  transition: all 0.5s;
+  font-size: 1.8rem;
+  padding-top: 0.3em;
+}
+
+.blog-layout-header a:hover {
+  color: var(--black);
+}
+
+.blog-layout-header svg {
+  margin: auto 0;
+  fill: var(--gray-1);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.blog-layout-header svg:hover {
+  fill: var(--black);
+}
+
+.blog-layout-container {
+  min-height: 100vh;
+  padding: 7vh 8vw;
+}
+
+.blog-layout-footer {
+  width: 100%;
+  height: 7vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: var(--footer-background);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8vw;
+}
+
+.blog-layout-footer span {
+  color: var(--gray-2);
+}
+
+.blog-layout-footer-social a svg {
+  stroke: var(--gray-2);
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+  margin-left: 1em;
+  transition: all 0.5s;
+}
+
+.blog-layout-footer-social a svg:hover {
+  stroke: var(--gray-1);
+}

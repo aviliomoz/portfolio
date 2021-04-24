@@ -1,0 +1,47 @@
+.blog-post {
+  width: 100%;
+  padding: 3em 0;
+}
+
+.blog-post h2 {
+  margin-bottom: 0.5em;
+  font-size: 2.1rem;
+}
+
+.blog-post p {
+  margin-bottom: 2.5em;
+  font-size: 1.1rem;
+}
+
+.blog-post-time {
+  margin-bottom: 3em;
+  border-bottom: 1px solid var(--gray-4);
+  padding-bottom: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog-post-time span {
+  color: var(--gray-2);
+  font-size: 0.9rem;
+}
+
+.blog-post-time svg {
+  fill: var(--gray-1);
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
+.blog-post-time svg:hover {
+  fill: var(--black);
+}
+
+.blog-post article {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.15rem;
+  letter-spacing: 0.01em;
+  line-height: 1.3em;
+}

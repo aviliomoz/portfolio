@@ -1,0 +1,47 @@
+.blog-card {
+  width: 100%;
+  margin-bottom: 2.8em;
+}
+
+.blog-card span {
+  color: var(--gray-2);
+  font-size: 0.9rem;
+}
+
+.blog-card p {
+  margin-top: 0.4em;
+  color: var(--gray-1);
+  font-size: 1.1rem;
+}
+
+.blog-card-header {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.blog-card-header a {
+  text-decoration: none;
+  color: var(--black);
+  font-size: 1.6rem;
+}
+
+.blog-card:hover .blog-card-header-hover {
+  padding: 0.4em;
+  margin-right: 0.5em;
+}
+
+.blog-card-header-hover {
+  background: linear-gradient(
+    100deg,
+    var(--gradient-color-1) 0%,
+    var(--gradient-color-2) 50%,
+    var(--gradient-color-3) 100%
+  );
+  padding: 0em;
+  border-radius: 2px;
+  margin-right: 0em;
+  margin-bottom: 5px;
+  transition: all 0.4s;
+}

@@ -1,0 +1,43 @@
+.hello {
+  width: 100%;
+  padding: 7em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hello span {
+  font-size: 1.2rem;
+}
+
+.hello span strong {
+  font-size: 1.5rem;
+}
+
+.hello h1 {
+  font-size: 2.7rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.hello h2 {
+  background: linear-gradient(
+    100deg,
+    var(--gradient-color-1) 0%,
+    var(--gradient-color-2) 50%,
+    var(--gradient-color-3) 100%
+  );
+  display: inline-block;
+  color: transparent;
+  background-clip: text;
+  font-size: 2.7rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.hello p {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 1em;
+  font-size: 1.2rem;
+}

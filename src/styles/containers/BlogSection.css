@@ -1,0 +1,17 @@
+.blog-section {
+  width: 100%;
+}
+
+.blog-section-header {
+  width: 100%;
+  padding-bottom: 0.6em;
+  border-bottom: 1px solid var(--gray-4);
+  margin-bottom: 1.8em;
+  font-size: 2rem;
+}
+
+.blog-section-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

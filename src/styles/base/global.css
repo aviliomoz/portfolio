@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', Calibri;
+  color: var(--black);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 1440px;
+  min-height: 100vh;
+  background: var(--white);
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.separator {
+  height: 60px;
+}
+
+html.transition,
+html.transition *,
+html.transition *::after,
+html.transition *::before {
+  transition: all 0.4s;
+}
