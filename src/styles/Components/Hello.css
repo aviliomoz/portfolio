@@ -15,7 +15,7 @@
 }
 
 .hello h1 {
-  font-size: 2.7rem;
+  font-size: 2.4rem;
   font-weight: 900;
   text-align: center;
 }
@@ -30,7 +30,7 @@
   display: inline-block;
   color: transparent;
   background-clip: text;
-  font-size: 2.7rem;
+  font-size: 2.3rem;
   font-weight: 900;
   text-align: center;
 }
@@ -39,5 +39,54 @@
   max-width: 100%;
   text-align: center;
   margin-top: 1em;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 425px) {
+  .hello h1 {
+    font-size: 2.8rem;
+  }
+
+  .hello h2 {
+    font-size: 2.7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hello p {
+    font-size: 1.2rem;
+    width: 85%;
+  }
+
+  .hello h1 {
+    font-size: 4rem;
+  }
+
+  .hello h2 {
+    font-size: 3.5rem;
+  }
+
+  .hello span {
+    font-size: 1.4rem;
+  }
+
+  .hello span strong {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hello {
+    align-items: flex-start;
+    padding: 8em 0;
+  }
+
+  .hello p {
+    text-align: left;
+    width: 60%;
+  }
+
+  .hello h1 {
+    font-size: 4.5rem;
+  }
 }
