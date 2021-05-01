@@ -73,3 +73,14 @@
 .blog-layout-footer-social a svg:hover {
   stroke: var(--gray-1);
 }
+
+@media (min-width: 1024px) {
+  .blog-layout-header,
+  .blog-layout-footer {
+    padding: 0 12vw;
+  }
+
+  .blog-layout-container {
+    padding: 7vh 12vw;
+  }
+}

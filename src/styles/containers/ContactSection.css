@@ -10,14 +10,17 @@
 
 .contact-section h2 {
   font-size: 2.5rem;
+  font-weight: 900;
   text-align: center;
+  color: var(--black);
 }
 
 .contact-section p {
   width: 100%;
   text-align: center;
   margin: 1.2em 0 1em 0;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  color: var(--black);
 }
 
 @media (min-width: 1024px) {
@@ -27,5 +30,9 @@
 
   .contact-section {
     padding: 7em 0;
+  }
+
+  .contact-section h2 {
+    font-size: 3.5rem;
   }
 }

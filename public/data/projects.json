@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Glasstodo",
+    "description": "Aplicación fullstack de agenda en la que puedes registrar tareas para días específicos. El diseño esta basado en la técnica de glassmorphism.",
+    "labels": ["mongodb", "express", "react", "node"],
+    "image": "/assets/images/glasstodo.svg",
+    "projectLink": "https://glasstodo.vercel.app",
+    "githubLink": "https://github.com/aviliomoz/glasstodo"
+  },
+  {
+    "title": "Mini Market",
+    "description": "Maqueta de proyecto e-commerce con carrito de compras y filtro de productos por categoria y precio.",
+    "labels": ["redux", "react", "express"],
+    "image": "/assets/images/minimarket.svg",
+    "projectLink": "https://minimarket.vercel.app",
+    "githubLink": "https://github.com/aviliomoz/minimarket"
+  },
+  {
+    "title": "Portfolio",
+    "description": "Mi sitio web personal.",
+    "labels": ["react", "react-router", "css"],
+    "image": "/assets/images/portfolio.svg",
+    "projectLink": "https://avilio.dev",
+    "githubLink": "https://github.com/aviliomoz/portfolio"
+  }
+]

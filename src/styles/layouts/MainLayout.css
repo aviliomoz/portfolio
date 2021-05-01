@@ -206,7 +206,8 @@
     text-decoration: none;
     transition: all 0.5s;
     font-size: 1rem;
-    margin-left: 1.8em;
+    margin-left: 2em;
+    margin-right: 0.5em;
   }
 
   .main-layout-header-nav-links-ul li a:hover {

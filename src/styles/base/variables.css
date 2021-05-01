@@ -11,18 +11,18 @@
   --gradient-color-2: #ec8247;
   --gradient-color-3: #feb83f;
 
-  --header-background: #1d1d1d;
+  --header-background: #07070d;
   --footer-background: #f5f5f5;
 }
 
 /* Dark mode */
 html[data-theme='dark'] {
   --black: #effbf1;
-  --gray-1: #def7e2;
-  --gray-2: #cef3d4;
-  --gray-3: #bdefc6;
-  --gray-4: #adebb8;
-  --gray-5: #80ce87;
+  --gray-1: #effbf1;
+  --gray-2: #effbf1;
+  --gray-3: #effbf1;
+  --gray-4: #effbf1;
+  --gray-5: #effbf1;
   --white: #07070d;
 
   --gradient-color-1: #22b455;

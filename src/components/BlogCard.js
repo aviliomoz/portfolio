@@ -1,3 +1,4 @@
+import moment from 'moment';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -10,7 +11,10 @@ export const BlogCard = ({ post }) => {
           <h4>{post.title}</h4>
         </Link>
       </div>
-      <span>{post.date} - (Hace dos semanas)</span>
+      <span>{`${post.date} - (${moment(
+        post.date,
+        'DD/MM/YYYY',
+      ).fromNow()})`}</span>
       <p>{post.description}</p>
     </div>
   );

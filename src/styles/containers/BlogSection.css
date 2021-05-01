@@ -6,12 +6,23 @@
   width: 100%;
   padding-bottom: 0.6em;
   border-bottom: 1px solid var(--gray-4);
-  margin-bottom: 1.8em;
-  font-size: 1.8rem;
+  margin-bottom: 3em;
+}
+
+.blog-section-header h3 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--black);
 }
 
 .blog-section-content {
   width: 100%;
   display: flex;
   flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+  .blog-section-header h3 {
+    font-size: 3.6rem;
+  }
 }

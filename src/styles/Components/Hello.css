@@ -1,9 +1,10 @@
 .hello {
   width: 100%;
-  padding: 7em 0;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .hello span {
@@ -15,9 +16,10 @@
 }
 
 .hello h1 {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   font-weight: 900;
   text-align: center;
+  color: var(--black);
 }
 
 .hello h2 {
@@ -30,40 +32,28 @@
   display: inline-block;
   color: transparent;
   background-clip: text;
-  font-size: 2.3rem;
+  font-size: 3rem;
   font-weight: 900;
   text-align: center;
 }
 
-.hello p {
-  max-width: 100%;
-  text-align: center;
-  margin-top: 1em;
-  font-size: 1.1rem;
-}
-
 @media (min-width: 425px) {
   .hello h1 {
-    font-size: 2.8rem;
+    font-size: 3.5rem;
   }
 
   .hello h2 {
-    font-size: 2.7rem;
+    font-size: 3.5rem;
   }
 }
 
 @media (min-width: 768px) {
-  .hello p {
-    font-size: 1.2rem;
-    width: 85%;
-  }
-
   .hello h1 {
     font-size: 4rem;
   }
 
   .hello h2 {
-    font-size: 3.5rem;
+    font-size: 5rem;
   }
 
   .hello span {
@@ -76,17 +66,11 @@
 }
 
 @media (min-width: 1024px) {
-  .hello {
-    align-items: flex-start;
-    padding: 8em 0;
-  }
-
-  .hello p {
-    text-align: left;
-    width: 60%;
-  }
-
   .hello h1 {
-    font-size: 4.5rem;
+    font-size: 5rem;
+  }
+
+  .hello h2 {
+    font-size: 7rem;
   }
 }

@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Dark mode con HTML, CSS y Javascript.",
+    "slug": "dark-mode",
+    "date": "30/04/2021",
+    "description": "Implementa el dark mode en tu sitio web utilizando la propiedad data-theme de HTML, variables de CSS y un poco de Javascript.",
+    "demo": "https://codesandbox.io/embed/tutorial-dark-mode-svn1g?fontsize=14&hidenavigation=1&theme=dark"
+  }
+]

@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Rubik', Calibri;
-  color: var(--black);
 }
 
 html {
   scroll-behavior: smooth;
+  font-family: 'Roboto', Calibri;
+  color: var(--black);
 }
 
 body {
