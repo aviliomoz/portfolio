@@ -28,11 +28,15 @@ export const BlogPost = () => {
 
   const [activePost, setActivePost] = useState(null);
   const [content, setContent] = useState('');
+  const [demo, setDemo] = useState(false);
 
   useEffect(() => {
     window.scrollTo({ top: 0 });
     getArticleBySlug(slug).then((article) => setActivePost(article));
     getArticleContent(slug).then((content) => setContent(content));
+    setTimeout(() => {
+      setDemo(true);
+    }, 1000);
   }, [slug]);
 
   // Loading
@@ -62,7 +66,7 @@ export const BlogPost = () => {
         <ReactMarkdown children={content} components={{ code: CodeBlock }} />
       </article>
 
-      <iframe title={activePost.title} src={activePost.demo} />
+      {demo && <iframe title={activePost.title} src={activePost.demo} />}
     </div>
   );
 };
